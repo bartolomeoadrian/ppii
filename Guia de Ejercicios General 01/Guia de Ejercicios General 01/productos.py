@@ -17,3 +17,16 @@ catalogo = [
     {'codigo': 1524, 'desc': "Salchichas Super Pancho", 'precio': 95.20},
     {'codigo': 7341, 'desc': "Salsa de Tomate 500 gs", 'precio': 47.90}
 ]
+
+
+def buscar(codigo):
+    """
+    Busca un producto en el catalogo a traves de su codigo
+
+    :param codigo: int - codigo del producto a buscar
+    :return: None or dict - devuelve None si no se encontro el producto o un diccionario si lo encontro
+    """
+    for producto in catalogo:
+        if producto["codigo"] == codigo:
+            return producto
+    return None

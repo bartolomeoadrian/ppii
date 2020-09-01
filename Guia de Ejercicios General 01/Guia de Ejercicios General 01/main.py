@@ -1,7 +1,14 @@
 import fechas
+import coordenadas
+import supermercado
 
 
 def ejercicio_de_fechas():
+    """
+    Ingresando tres datos requeridos por consola se imprime un resultado
+
+    :return: None
+    """
     mes = input("Ingrese el nombre del mes: ")
     abreviatura = input("Ingrese la abreviatura: ")
 
@@ -17,6 +24,11 @@ def ejercicio_de_fechas():
 
 
 def ejercicio_de_fechas_con_formato():
+    """
+    Ingresando una fecha en formato dd/mm/yyyy se imprime el resultado por partes
+
+    :return: None
+    """
     while True:
         try:
             fecha = input("Ingrese una fecha en formato dd/mm/yyyy: ")
@@ -26,4 +38,4 @@ def ejercicio_de_fechas_con_formato():
             print(e)
 
 
-ejercicio_de_fechas_con_formato()
+supermercado.iniciar()
