@@ -53,7 +53,42 @@ def buscar_producto():
 
 
 def ingresar_factura():
-    return None
+    """
+    Permite al usuario buscar varios productos para crear una factura con ellos con su respectiva cantidad
+    e indicar el total a pagar. Ingrese codigo de producto 'F' para terminar
+
+    :return: None
+    """
+    factura = []
+    total = 0
+
+    while True:
+        codigo = input("Ingrese el codigo del producto: ")
+
+        if codigo == "F":
+            break
+
+        if not codigo.isdigit():
+            print("El codigo que ingresó no es un número, intentelo nuevamente")
+            continue
+
+        producto = productos.buscar(int(codigo))
+
+        if not producto:
+            print("No existe un producto con ese codigo")
+            continue
+
+        cantidad = input("Ingrese la cantidad a solicitar: ")
+
+        if not cantidad.isdigit():
+            print("La cantidad que ingresó no es un número, intentelo nuevamente")
+            continue
+
+        factura.append({'producto': producto, 'cantidad': int(cantidad)})
+        total += int(cantidad) * producto['precio']
+
+    print(factura)
+    print(f"Total: ${total}")
 
 
 def ingresar_producto():
