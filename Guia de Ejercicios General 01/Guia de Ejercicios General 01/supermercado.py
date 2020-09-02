@@ -24,14 +24,17 @@ def iniciar():
         elif opcion == "3":
             ingresar_producto()
         elif opcion == "4":
-            break;
+            break
         else:
             print("No ha ingresado una opcion válida")
 
 
 def buscar_producto():
-    codigo = None
+    """
+    Ingresando el codigo de un producto lo busca en el catalogo y lo informa por pantalla
 
+    :return: None
+    """
     while True:
         codigo = input("Ingrese el código del producto: ")
         if not codigo.isdigit():
@@ -54,4 +57,35 @@ def ingresar_factura():
 
 
 def ingresar_producto():
-    return None
+    """
+    Pide datos por consola para el ingreso de un nuevo producto al catalogo
+
+    :return: None
+    """
+    while True:
+        codigo = input("Ingrese el codigo del producto: ")
+
+        if not codigo.isdigit():
+            print("El codigo debe ser un número")
+            continue
+
+        desc = input("Ingrese la descripción del producto: ")
+
+        precio = input("Ingrese el precio del producto: ")
+        precio = precio.split(".")
+        if len(precio) != 2:
+            print("El precio debe ser un número con dos decimales. Ej: 20.00")
+            continue
+        if len(precio[1]) != 2 or not precio[0].isdigit() or not precio[1].isdigit():
+            print("El precio debe ser un número con dos decimales. Ej: 20.00")
+            continue
+
+        codigo = int(codigo)
+        precio = float(".".join(precio))
+
+        break
+
+    try:
+        productos.agregar(codigo, desc, precio)
+    except Exception as e:
+        print(e)

@@ -30,3 +30,32 @@ def buscar(codigo):
         if producto["codigo"] == codigo:
             return producto
     return None
+
+
+def agregar(codigo, desc, precio):
+    """
+    Agrega un nuevo producto al catalogo
+
+    :param codigo: int - codigo del producto
+    :param desc: str - descripcion del producto
+    :param precio: float - precio del producto
+    :return: None
+    """
+    producto = buscar(codigo)
+    if producto:
+        raise Exception("Ya existe un producto con ese código!")
+
+    if not type(codigo) is int:
+        raise Exception("El código debe ser un entero!")
+
+    if not type(desc) is str:
+        raise Exception("La descripcion debe ser un string!")
+
+    if not type(precio) is float:
+        raise Exception("El precio debe ser un float!")
+
+    catalogo.append({
+        'codigo': codigo,
+        'desc': desc,
+        'precio': precio
+    })
