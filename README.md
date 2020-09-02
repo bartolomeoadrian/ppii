@@ -12,14 +12,8 @@
 
 ---
 
-### Clonar
-
-- Clona este reporisotorio a tu máquina local con: `https://github.com/bgonzalez-fie/ppii.git`
-
----
-
-## Contacto
+### Contacto
 
 Contactesé conmigo a través de los siguientes medios!
 
-- E-mail a <a href="mailto:bgonzalez@fie.undef.edu.ar" target="_blank">`bgonzalez@fie.undef.edu.ar`</a>
+- E-Mail a <a href="mailto:bgonzalez@fie.undef.edu.ar" target="_blank">`bgonzalez@fie.undef.edu.ar`</a>
