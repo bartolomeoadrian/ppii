@@ -14,6 +14,6 @@
 
 ### Contacto
 
-Contactesé conmigo a través de los siguientes medios!
+Contáctese conmigo a través de los siguientes medios!
 
 - E-Mail a <a href="mailto:bgonzalez@fie.undef.edu.ar" target="_blank">`bgonzalez@fie.undef.edu.ar`</a>
