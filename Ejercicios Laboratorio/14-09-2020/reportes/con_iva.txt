@@ -1,0 +1,32 @@
+======================09/14/2020, 12:39:29======================
+Pilas alcalinas 000-2.1-6.0258
+Libro de Programacion-13.32-15.984100000000002
+Cartuchera de cuero-15.21-13.564100000000002
+Lapices de colores-122.1-28.0841
+Llantas x 4-78.5-6.836500000000001
+Botellas de platico-15.31-15.984100000000002
+Carpetas para el colegio-43.34-1.4641
+Sillas-13.21-41.5272
+Auriculares Wireless-4.21-3.9083
+Resmas de 500 hojas-13.22-8.2522
+Juego de cerradura-8.76-20.3522
+Vasos descartables-23.21-16.0809
+Camperas para el frio-4.45-7.9376
+Comida de Gatos-9.98-9.2565
+Cuadernos escolares-6.56-4.0172
+Cables Micro USB-45.43-5.4934
+Repuestos de Moto-15.21-15.984100000000002
+Acolchados-4.45-7.9376
+Gafas de sol-1.12-61.0445
+Microcomponente-8.7-137.0083
+Lampara electrica-9.1-26.3538
+Luces LED navideñas-4.3-8.1796
+Juego de cubiertos-14.0-9.2807
+Cables Thunderbolt-55.0-16.6738
+Videojuegos para PS4-12.2-109.9769
+Estufa Tiro Balanceado-6.7-26.1965
+Ojotas havaianas x 2-9.87-67.2034
+Aerosol de ambiente-0.3-78.79520000000001
+Opticas para auto-5.0-28.3503
+celular android 9.0-115.21-81.7476
+transformador fuente de 20V-56.54-4.114
