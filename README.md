@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="http://www.est.iue.edu.ar/wp-content/uploads/2012/11/BannerFIE-01-1-1024x110%20-%20final.png" title="FIE" alt="FIE">
+    <img src="https://www.fie.undef.edu.ar/wp-content/uploads/2020/11/123.png" title="FIE" alt="FIE">
 </p>
 
 # Paradigmas de Programación II
